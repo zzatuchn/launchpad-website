@@ -1,0 +1,44 @@
+
+.signup_container {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    background: rgb(40, 40, 40);
+    margin: auto;
+    top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .signup_container {
+        width: 90%;
+    }
+}
+
+.signup_content {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    top: 30px;
+}
+
+.progress {
+    display: flex;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+}
+
+.progress_box {
+    position: relative;
+    width: 100px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 10px;
+}
+
+.signup_fields {
+    width: 350px;
+    margin: auto;
+}

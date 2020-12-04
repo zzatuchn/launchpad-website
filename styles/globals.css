@@ -23,6 +23,10 @@ h1 {
   font-family: nilland-bold, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 h2 {
   color: white;
   font-size: 40px;
@@ -36,14 +40,15 @@ h3 {
 
 p {
   color: white;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 20px;
 }
 
-.sh-navbar {
+.navbar-very-dark {
   background-color: rgb(20, 20, 20);
 }
 
-.home-bg-image {
+.bg-image {
   background-image: url("../public/servers.jpg");
   background-size: cover;
   height: 500px;
@@ -62,10 +67,74 @@ p {
 .main-text {
   position: relative;
   margin: auto;
-  width: 50%;
   text-align: center;
-  top: 100px;
   animation-name: fadein, mtpopup;
   animation-duration: 1s;
+  width: 90%;
 }
 
+@media only screen and (max-width: 593px) {
+  .main-text {
+    top: 50px;
+  }
+}
+
+@media only screen and (min-width: 593px) {
+  .main-text {
+    top: 100px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .about-text-container {
+    display: flex;
+  }
+  .about-text {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-text {
+    width: 80%;
+  }
+}
+
+.about-text-container {
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.about-text {
+  position: relative;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.bottom-text {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  top: 75px;
+}
+
+.bg-image-two {
+  background-image: url("../public/man-at-computer.jpg");
+  background-size: cover;
+  height: 500px;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+  background-position: center;
+}
+
+.bg-gradient-two {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(225,75,75,0) 0%, rgba(225,75,75,0.5) 47%, rgba(225,75,75,1) 100%);
+}
