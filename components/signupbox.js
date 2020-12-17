@@ -118,7 +118,7 @@ export default function SignupBox() {
         <div>
             <div className={styles.signup_container} style={{height: signup_container_height}}>
                 <div className={styles.signup_content}>
-                    <h1>Fake Signup Form</h1>
+                    <h1>Fake Signup</h1>
                     <div className={styles.progress}>
                         <div className={styles.progress_box} style={progress <= 0 ? {backgroundColor: "black"} : {backgroundColor: "green"}}></div>
                         <div className={styles.progress_box} style={progress <= 1 ? {backgroundColor: "black"} : {backgroundColor: "green"}}></div>
