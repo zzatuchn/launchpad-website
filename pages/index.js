@@ -15,38 +15,38 @@ export default function Home() {
         <div className="bg-gradient">
           <div className="main-text">
             <h1>Fool, learn, and conquer</h1>
-            <h3>Sophisticated intrusion protection<br></br> with honeypots</h3>
+            <h3>Smart honeypots for<br></br> small enterprises</h3>
             <br></br>
-            <a href="/signup"><button type="button" className="button btn-danger"><h3>Request a Consultation</h3></button></a>
+            <a href="/signup"><button type="button" className="button btn-danger"><h3>Request a Demo</h3></button></a>
             <br></br><br></br>
-            <button type="button" className="button btn-dark"><h3>See How SafeHouse Works</h3></button>
+            <a href="/details"><button type="button" className="button btn-dark"><h3>See How SafeHouse Works</h3></button></a>
           </div>
         </div>
       </div>
       <div className="about-text-container">
         <div className="about-text" style={{top: "40px", position: "relative"}}>
-          <h1>Thing 1</h1>
+          <h1>Configurable</h1>
           <br></br>
-          <h3>Text text text text text text text text text text text text text text text text text text text text text text text text</h3>
+          <h3>Designed to suit multiple use cases</h3>
           <br></br>
           <img src="honeycomb.png" width="200px"></img>
         </div>
         <div className="about-text" style={{top: "40px", position: "relative"}}>
-          <h1>Thing 2</h1>
+          <h1>Sophisticated</h1>
           <br></br>
-          <h3>Text text text text text text text text text text text text text text text text text text text text text text text text</h3>
+          <h3>Uses data to protect from future threats</h3>
           <br></br>
           <img src="data.png" width="200px"></img>
         </div>
         <div className="about-text" style={{top: "40px", position: "relative"}}>
-          <h1>Thing 3</h1>
+          <h1>Safe</h1>
           <br></br>
-          <h3>Text text text text text text text text text text text text text text text text text text text text text text text text</h3>
+          <h3>Isolated and convincing decoys</h3>
           <br></br>
           <img src="safe.svg" width="200px"></img>
         </div>
       </div>
-      <div style={{height: "335px", background: "rgb(225,75,75)", borderTop: "solid", borderColor: "white"}}>
+      <div className="red-container" style={{background: "rgb(225,75,75)", borderTop: "solid", borderColor: "white", top: "0px"}}>
         <div className="bottom-text">
           <h1>Still in development!</h1>
           <br></br>
@@ -58,11 +58,11 @@ export default function Home() {
         </div>
       </div>
       <div className="bottom-text">
-        <h1>Be the first to experience the security revolution!</h1>
+        <h1>Get the world's most advanced commercial honeypot</h1>
         <br></br>
-        <a href="/signup"><button type="button" className="button btn-danger"><h3>Request a Consultation</h3></button></a>
+        <a href="/signup"><button type="button" className="button btn-danger"><h3>Request a Demo</h3></button></a>
         <br></br><br></br>
-        <button type="button" className="button btn-dark"><h3>See How SafeHouse Works</h3></button>
+        <a href="/details"><button type="button" className="button btn-dark"><h3>See How SafeHouse Works</h3></button></a>
         <br></br><br></br><br></br>
         <div style={{width:"100%", height: "3px", background: "gray"}}></div>
         <br></br>

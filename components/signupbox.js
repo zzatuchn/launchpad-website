@@ -23,9 +23,9 @@ export default function SignupBox() {
                     <input type="password" className="form-control" id="confirmPassword1" placeholder="Confirm Password"></input>
                 </div>
                 <div style={{display: "flex", justifyContent: "center"}}>
-                <button type="submit" className="btn btn-danger" onClick={()=>nextSignupContent(1)}>Next</button>
+                    <button type="submit" className="btn btn-danger" onClick={()=>nextSignupContent(1)}>Next</button>
                 </div>
-                </form>
+            </form>
         </div>
     )
     
@@ -63,7 +63,7 @@ export default function SignupBox() {
         <div>
             <form onSubmit={()=>formSubmit()}>
                 <div className="form-group">
-                    <label htmlFor="description"><h3>Describe current security situation</h3></label>
+                    <label htmlFor="description"><h3>(Optional) Please describe how you found this website and why you are interested in our product</h3></label>
                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     <br></br>
                     <input type="checkbox" className="form-check-input" id="termsCheck"></input>
@@ -79,15 +79,18 @@ export default function SignupBox() {
 
     const fourthForm = (
         <div>
-            <br></br><br></br>
+            <br></br>
             <h2>You're all set up!</h2>
             <h3>You will receive a response shortly...</h3>
             <img src="confetti.png" width="40%"></img>
+            <br></br><br></br>
+            <a href="/"><button type="button" className="button btn-danger"><h3>Return Home</h3></button></a>
         </div>
     )
 
     const [progress, setProgress] = useState(0);
     const [currentForm, setForm] = useState(firstForm);
+    const [signup_container_height, setHeight] = useState(475);
 
     function nextSignupContent(number) {
         setProgress(number);
@@ -95,23 +98,27 @@ export default function SignupBox() {
         switch(number) {
             case 0:
                 setForm(firstForm);
+                setHeight(475);
                 break;
             case 1:
                 setForm(secondForm);
+                setHeight(600);
                 break;
             case 2:
                 setForm(thirdForm);
+                setHeight(525);
                 break;
             case 3:
                 setForm(fourthForm);
+                setHeight(525);
         }
     }
 
     return (
         <div>
-            <div className={styles.signup_container}>
+            <div className={styles.signup_container} style={{height: signup_container_height}}>
                 <div className={styles.signup_content}>
-                    <h1>Sign up</h1>
+                    <h1>Fake Signup Form</h1>
                     <div className={styles.progress}>
                         <div className={styles.progress_box} style={progress <= 0 ? {backgroundColor: "black"} : {backgroundColor: "green"}}></div>
                         <div className={styles.progress_box} style={progress <= 1 ? {backgroundColor: "black"} : {backgroundColor: "green"}}></div>
