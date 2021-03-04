@@ -81,7 +81,6 @@ export default function SignupBox() {
         <div>
             <br></br>
             <h2>You're all set up!</h2>
-            <h3>You will receive a response shortly...</h3>
             <img src="confetti.png" width="40%"></img>
             <br></br><br></br>
             <a href="/"><button type="button" className="button btn-danger"><h3>Return Home</h3></button></a>

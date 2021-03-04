@@ -17,9 +17,9 @@ export default function Home() {
             <h1>Fool, learn, and conquer</h1>
             <h3>Smart honeypots for<br></br> small enterprises</h3>
             <br></br>
-            <a href="/signup"><button type="button" className="button btn-danger"><h3>Request a Demo</h3></button></a>
+            <a href="/"><button type="button" className="button btn-danger"><h3>Download Demo Version</h3></button></a>
             <br></br><br></br>
-            <a href="/details"><button type="button" className="button btn-dark"><h3>See How SafeHouse Works</h3></button></a>
+            <a href="/signup"><button type="button" className="button btn-dark"><h3>Request Consultation</h3></button></a>
           </div>
         </div>
       </div>
@@ -60,9 +60,9 @@ export default function Home() {
       <div className="bottom-text">
         <h1>Get the world's most advanced commercial honeypot</h1>
         <br></br>
-        <a href="/signup"><button type="button" className="button btn-danger"><h3>Request a Demo</h3></button></a>
+        <a href="/"><button type="button" className="button btn-danger"><h3>Download Demo Version</h3></button></a>
         <br></br><br></br>
-        <a href="/details"><button type="button" className="button btn-dark"><h3>See How SafeHouse Works</h3></button></a>
+        <a href="/signup"><button type="button" className="button btn-dark"><h3>Request Consultation</h3></button></a>
         <br></br><br></br><br></br>
         <div style={{width:"100%", height: "3px", background: "gray"}}></div>
         <br></br>
