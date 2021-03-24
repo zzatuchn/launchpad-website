@@ -11,6 +11,7 @@ export default function SignupBox() {
 
     const firstForm = (
         <div>
+            <p>Disclaimer: this is a fake signup form. No information will be recorded.</p>
             <form onSubmit={()=>formSubmit()}>
                 <div className="form-group">
                     <label htmlFor="exampleInputEmail1"><h3>Email address</h3></label>
@@ -89,7 +90,7 @@ export default function SignupBox() {
 
     const [progress, setProgress] = useState(0);
     const [currentForm, setForm] = useState(firstForm);
-    const [signup_container_height, setHeight] = useState(475);
+    const [signup_container_height, setHeight] = useState(550);
 
     function nextSignupContent(number) {
         setProgress(number);
@@ -97,7 +98,7 @@ export default function SignupBox() {
         switch(number) {
             case 0:
                 setForm(firstForm);
-                setHeight(475);
+                setHeight(550);
                 break;
             case 1:
                 setForm(secondForm);
@@ -109,7 +110,7 @@ export default function SignupBox() {
                 break;
             case 3:
                 setForm(fourthForm);
-                setHeight(525);
+                setHeight(475);
         }
     }
 

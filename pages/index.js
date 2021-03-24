@@ -17,9 +17,9 @@ export default function Home() {
             <h1>Fool, learn, and conquer</h1>
             <h3>Smart honeypots for<br></br> small enterprises</h3>
             <br></br>
-            <a href="/"><button type="button" className="button btn-danger"><h3>Download Demo Version</h3></button></a>
+            <a href="/downloads"><button type="button" className="button btn-danger"><h3>Get Safehouse</h3></button></a>
             <br></br><br></br>
-            <a href="/signup"><button type="button" className="button btn-dark"><h3>Request Consultation</h3></button></a>
+            <a href="/"><button type="button" className="button btn-dark"><h3>Read Our Blog</h3></button></a>
           </div>
         </div>
       </div>
@@ -48,25 +48,57 @@ export default function Home() {
       </div>
       <div className="red-container" style={{background: "rgb(225,75,75)", borderTop: "solid", borderColor: "white", top: "0px"}}>
         <div className="bottom-text">
-          <h1>Still in development!</h1>
+          <h1>Disclaimer</h1>
           <br></br>
-          <h3>This is a placeholder site!<br></br>There is nothing to try out yet but <br></br>we're working on it!</h3>
+          <h3>This is a placeholder site for a product in development.
+            <br></br>There is nothing to purchase nor demo.
+            <br></br>In the meantime, check out our blog!
+          </h3>
         </div>
       </div>
       <div className="bg-image-two">
         <div className="bg-gradient-two">
         </div>
       </div>
-      <div className="bottom-text">
+      <div className="about-text-container" style={{marginBottom: "40px", marginTop: "-75px"}}>
+        <div className="blog-post">
+          <br></br>
+          <img src="gray.jpg" width="90%" height="200px"></img>
+          <h2>Post title</h2>
+          <p>Post subtitle</p>
+          <p><a href="/">Read this blog post &#8594;</a></p>
+        </div>
+        <div className="blog-post">
+          <br></br>
+          <img src="gray.jpg" width="90%" height="200px"></img>
+          <h2>Post title</h2>
+          <p>Post subtitle</p>
+          <p><a href="/">Read this blog post &#8594;</a></p>
+        </div>
+        <div className="blog-post">
+          <br></br>
+          <img src="gray.jpg" width="90%" height="200px"></img>
+          <h2>Post title</h2>
+          <p>Post subtitle</p>
+          <p><a href="/">Read this blog post &#8594;</a></p>
+        </div>
+      </div>
+      <div className="bottom-text" style={{marginTop:"-50px"}}>
+        <div style={{width:"100%", height: "3px", background: "gray"}}></div>
+        <br></br>
         <h1>Get the world's most advanced commercial honeypot</h1>
         <br></br>
-        <a href="/"><button type="button" className="button btn-danger"><h3>Download Demo Version</h3></button></a>
+        <a href="/downloads"><button type="button" className="button btn-danger"><h3>Get Safehouse</h3></button></a>
         <br></br><br></br>
-        <a href="/signup"><button type="button" className="button btn-dark"><h3>Request Consultation</h3></button></a>
+        <a href="/"><button type="button" className="button btn-dark"><h3>Read Our Blog</h3></button></a>
         <br></br><br></br><br></br>
         <div style={{width:"100%", height: "3px", background: "gray"}}></div>
         <br></br>
-        <a className="navbar-brand" style={{color:"rgb(256, 70, 70)"}} href="#"><h2>SafeHouse</h2></a>
+        <a className="navbar-brand" style={{color:"white"}} href="#"><h2>SafeHouse</h2></a>
+        <p>Powered by the <a href="https://www.stevens.edu/academics/undergraduate-studies/undergraduate-entrepreneurship-programs/launchpadstevens">Launchpad Program</a> at Stevens</p>
+        <img src="launchpad.png" width="100px" height="100px"></img>
+        <br></br>
+        <br></br>
       </div>
     </div>
   )
