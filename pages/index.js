@@ -8,7 +8,7 @@ export default function Home() {
         <title>SafeHouse - Home</title>
         <meta charSet="utf-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"></link>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossOrigin="anonymous"></link>
       </Head>
       <Navbar></Navbar>
       <div className="bg-image">
@@ -43,7 +43,7 @@ export default function Home() {
           <br></br>
           <h3>Isolated and convincing decoys</h3>
           <br></br>
-          <img src="safe.svg" width="200px"></img>
+          <img src="safe.png" width="200px"></img>
         </div>
       </div>
       <div className="red-container" style={{background: "rgb(225,75,75)", borderTop: "solid", borderColor: "white", top: "0px"}}>
