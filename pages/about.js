@@ -96,7 +96,7 @@ export default function Home() {
                     production system during an attack,
                     in case the hacker realizes he's been duped.
                     These <tt>low-interaction</tt> honeypots do not collect a lot of data and only emulate services frequently requested
-                    by hackers. As such 
+                    by hackers. 
                   </h3>
                   <br></br>
                   <h3>
