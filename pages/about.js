@@ -16,13 +16,13 @@ export default function Home() {
       <div className="bg-image-four">
         <div className="bg-gradient-four">
           <div className="main-text" style={{textAlign: "center"}}>
-            <h1>About Safehouse</h1>
+            <h1>About SafeHouse</h1>
           </div>
           <div className="about-cards">
             <div className="about-card">
               <a data-bs-toggle="collapse" href="#questionOne" role="button" aria-expanded="false" aria-controls="collapseExample">
                 <div style={{color: "white", display: "inline"}}>
-                  <h2>What is Safehouse?</h2>
+                  <h2>What is SafeHouse?</h2>
                   <p>[expand]</p>
                 </div>
               </a>
@@ -36,7 +36,7 @@ export default function Home() {
                   </h3>
                   <br></br>
                   <h3>
-                    <tt>Safehouse</tt> is a suite of hyper-secure, affordable variable-interaction honeypots 
+                    <tt>SafeHouse</tt> is a suite of hyper-secure, affordable variable-interaction honeypots 
                     and honeypot IDS's that help protect production systems, aimed at small enterprises.
                   </h3>
                   <br></br>
@@ -141,14 +141,14 @@ export default function Home() {
             <div className="about-card">
               <a data-bs-toggle="collapse" href="#questionFive" role="button" aria-expanded="false" aria-controls="collapseExample">
                 <div style={{color: "white", display: "inline"}}>
-                  <h2>Why Safehouse?</h2>
+                  <h2>Why SafeHouse?</h2>
                   <p>[expand]</p>
                 </div>
               </a>
               <div className="collapse" id="questionFive">
                 <div className="">
                   <h3>
-                    Safehouse has all of the features of typical honeypot software.
+                    SafeHouse has all of the features of typical honeypot software.
                   </h3>
                   <br></br>
                   <h3>
@@ -158,7 +158,7 @@ export default function Home() {
                   <br></br>
                   <h3>
                     This model <tt>eliminates the security risks and maintenance costs</tt> associated with high-interaction 
-                    honeypots. With Safehouse, companies can leverage the benefits of both low and high
+                    honeypots. With SafeHouse, companies can leverage the benefits of both low and high
                     interaction honeypots without any downsides.
                   </h3>
                   <br></br>
@@ -174,14 +174,14 @@ export default function Home() {
             <div className="about-card">
               <a data-bs-toggle="collapse" href="#questionSix" role="button" aria-expanded="false" aria-controls="collapseExample">
                 <div style={{color: "white", display: "inline"}}>
-                  <h2>When will Safehouse be ready to use?</h2>
+                  <h2>When will SafeHouse be ready to use?</h2>
                   <p>[expand]</p>
                 </div>
               </a>
               <div className="collapse" id="questionSix">
                 <div className="">
                   <h3>
-                    Safehouse is currently in the early stages of development. 
+                    SafeHouse is currently in the early stages of development. 
                     We do not know exactly when it will be ready for release but we suspect that 
                     there will be an alpha by <tt>Fall 2021</tt> at the latest. 
                     Until then, we will post continual updates to our blog and social media.
@@ -193,7 +193,7 @@ export default function Home() {
           </div>
           <div className="bottom-text" style={{top: "200px"}}>
             <br></br>
-            <a href="/#prices"><button type="button" className="button btn-danger"><h3>Get Safehouse</h3></button></a>
+            <a href="/#prices"><button type="button" className="button btn-danger"><h3>Get SafeHouse</h3></button></a>
             <br></br><br></br>
             <a href="/"><button type="button" className="button btn-dark"><h3>Read Our Blog</h3></button></a>
             <br></br><br></br><br></br>

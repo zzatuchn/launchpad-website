@@ -17,7 +17,7 @@ export default function Home() {
             <h1>Fool, learn, and conquer</h1>
             <h3>Smart honeypots for<br></br> small enterprises</h3>
             <br></br>
-            <a href="#prices"><button type="button" className="button btn-danger"><h3>Get Safehouse</h3></button></a>
+            <a href="#prices"><button type="button" className="button btn-danger"><h3>Get SafeHouse</h3></button></a>
             <br></br><br></br>
             <a href="/about"><button type="button" className="button btn-dark"><h3>Learn More</h3></button></a>
           </div>
