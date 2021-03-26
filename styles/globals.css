@@ -40,6 +40,11 @@ p {
   font-size: 20px;
 }
 
+h4 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+}
+
 li {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 20px;
@@ -109,11 +114,24 @@ ul {
   .about-text-container {
     display: flex;
   }
+  .price-text-container {
+    display: flex;
+  }
   .about-text {
     width: 27%;
   }
+  .about-text-2 {
+    width: 50%;
+  }
   .blog-post {
     width: 30%;
+  }
+  .product-choice {
+    width: 40%;
+  }
+  .bottom-text {
+    position: absolute;
+    top: 300px;
   }
 }
 
@@ -124,6 +142,13 @@ ul {
   .blog-post {
     width: 400px;
   }
+  .product-choice {
+    width: 400px;
+  }
+  .bottom-text {
+    position: absolute;
+    top: 400px;
+  }
 }
 
 .about-text-container {
@@ -132,7 +157,23 @@ ul {
   margin: auto;
 }
 
+.price-text-container {
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  color: white;
+}
+
 .about-text {
+  color: white;
+  position: relative;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.about-text-2 {
   color: white;
   position: relative;
   margin-top: 0;
@@ -192,7 +233,6 @@ ul {
   position: relative;
   background: rgb(225,75,75);
   padding: 15px;
-  width: 500px;
   border-radius: 20px;
 }
 

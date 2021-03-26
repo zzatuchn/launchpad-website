@@ -17,9 +17,9 @@ export default function Home() {
             <h1>Fool, learn, and conquer</h1>
             <h3>Smart honeypots for<br></br> small enterprises</h3>
             <br></br>
-            <a href="/downloads"><button type="button" className="button btn-danger"><h3>Get Safehouse</h3></button></a>
+            <a href="#prices"><button type="button" className="button btn-danger"><h3>Get Safehouse</h3></button></a>
             <br></br><br></br>
-            <a href="/"><button type="button" className="button btn-dark"><h3>Read Our Blog</h3></button></a>
+            <a href="/about"><button type="button" className="button btn-dark"><h3>Learn More</h3></button></a>
           </div>
         </div>
       </div>
@@ -57,7 +57,8 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-image-two">
-        <div className="bg-gradient-two">
+        <div className="bg-gradient-two" style={{textAlign: "center"}}>
+          <h1 style={{position: "relative", top: "320px", margin: "auto"}}>Recent blog posts</h1>
         </div>
       </div>
       <div className="about-text-container" style={{marginBottom: "40px", marginTop: "-75px"}}>
@@ -83,12 +84,59 @@ export default function Home() {
           <p><a href="/">Read this blog post &#8594;</a></p>
         </div>
       </div>
-      <div className="bottom-text" style={{marginTop:"-50px"}}>
+      <div className="bg-image-three" style={{height: "700px", borderTop: "solid", borderColor: "white"}}>
+        <div className="bg-gradient-three">
+          <a name="prices"></a>
+          <div className="main-text">
+            <h1>Disclaimer</h1>
+            <br></br>
+            <h3>There is nothing yet to purchase on this website. 
+              <br></br>The prices listed below are subject to change.
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div className="price-text-container" style={{marginTop:"-350px"}}>
+        <div className="product-choice">
+          <h1>Basic</h1>
+          <div className="price-tag">
+            <h1>$24.95</h1>
+            <p>per instance per month</p>
+          </div>
+          <ul>
+            <li>&#10003; Feature 1</li>
+            <li>&#10003; Feature 2</li>
+            <li>&#10003; Feature 3</li>
+            <li style={{color:"rgb(200,200,200)"}}>&#9587; Feature 4</li>
+            <li style={{color:"rgb(200,200,200)"}}>&#9587; Feature 5</li>
+            <li style={{color:"rgb(200,200,200)"}}>&#9587; Feature 6</li>
+          </ul> 
+          <button type="button" className="button btn-dark"><h3>Purchase Now!</h3></button>
+        </div>
+        <br></br>
+        <div className="product-choice">
+          <h1>Enterprise</h1>
+          <div className="price-tag">
+            <h1>$49.95</h1>
+            <p>per instance per month</p>
+          </div>
+          <ul>
+            <li>&#10003; Feature 1</li>
+            <li>&#10003; Feature 2</li>
+            <li>&#10003; Feature 3</li>
+            <li>&#10003; Feature 4</li>
+            <li>&#10003; Feature 5</li>
+            <li>&#10003; Feature 6</li>
+          </ul> 
+          <button type="button" className="button btn-dark"><h3>Purchase Now!</h3></button>
+        </div>
+      </div>
+      <div className="bottom-text">
         <div style={{width:"100%", height: "3px", background: "gray"}}></div>
         <br></br>
         <h1>Get the world's most advanced commercial honeypot</h1>
         <br></br>
-        <a href="/downloads"><button type="button" className="button btn-danger"><h3>Get Safehouse</h3></button></a>
+        <a href="/about"><button type="button" className="button btn-danger"><h3>Learn More</h3></button></a>
         <br></br><br></br>
         <a href="/"><button type="button" className="button btn-dark"><h3>Read Our Blog</h3></button></a>
         <br></br><br></br><br></br>
