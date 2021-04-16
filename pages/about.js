@@ -15,9 +15,12 @@ export default function Home() {
       <Navbar></Navbar>
       <div className="bg-image-four">
         <div className="bg-gradient-four">
-          <div className="main-text" style={{textAlign: "center"}}>
+          <div className="main-text">
             <h1>About SafeHouse</h1>
+            <h2>Small businesses are underappreciated by big cyber. We're giving security to the little guy.</h2>
+
           </div>
+          
           <div className="about-cards">
             <div className="about-card">
               <a data-bs-toggle="collapse" href="#questionOne" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -28,13 +31,6 @@ export default function Home() {
               </a>
               <div className="collapse" id="questionOne">
                 <div className="">
-                  <h3>
-                    We believe that <tt>small businesses are underappreciated</tt> by the big cyber companies.
-                    No one has the time to configure a complicated and expensive set of tools and analyze reams of data. 
-                    We are creating an affordable, simple and proactive cybersecurity solution that will alleviate small businesses
-                    of their security woes.
-                  </h3>
-                  <br></br>
                   <h3>
                     <tt>SafeHouse</tt> is a suite of hyper-secure, affordable variable-interaction honeypots 
                     and honeypot IDS's that help protect production systems, aimed at small enterprises.

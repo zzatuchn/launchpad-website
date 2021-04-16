@@ -64,24 +64,20 @@ export default function Home() {
       <div className="about-text-container" style={{marginBottom: "40px", marginTop: "-75px"}}>
         <div className="blog-post">
           <br></br>
-          <img src="gray.jpg" width="90%" height="200px"></img>
-          <h2>Post title</h2>
-          <p>Post subtitle</p>
+          <img src="maze.jpg" width="90%" height="200px"></img>
+          <h2>Escaping The Cybersecurity Maze: A Guide for Newbies</h2>
+          <p><a href="https://devsafehouse.medium.com/escaping-the-cybersecurity-maze-a-guide-for-newbies-29d3323ea5a5">Read this blog post &#8594;</a></p>
+        </div>
+        <div className="blog-post">
+          <br></br>
+          <img src="sec.jpg" width="90%" height="200px"></img>
+          <h2>Four Ways That Small Businesses are Out of Their Depth on Cybersecurity</h2>
           <p><a href="/">Read this blog post &#8594;</a></p>
         </div>
         <div className="blog-post">
           <br></br>
           <img src="gray.jpg" width="90%" height="200px"></img>
-          <h2>Post title</h2>
-          <p>Post subtitle</p>
-          <p><a href="/">Read this blog post &#8594;</a></p>
-        </div>
-        <div className="blog-post">
-          <br></br>
-          <img src="gray.jpg" width="90%" height="200px"></img>
-          <h2>Post title</h2>
-          <p>Post subtitle</p>
-          <p><a href="/">Read this blog post &#8594;</a></p>
+          <h2>Coming soon...</h2><br></br>
         </div>
       </div>
       <div className="bg-image-three" style={{height: "700px", borderTop: "solid", borderColor: "white"}}>
@@ -100,7 +96,7 @@ export default function Home() {
         <div className="product-choice">
           <h1>Basic</h1>
           <div className="price-tag">
-            <h1>$24.95</h1>
+            <h1>$XX.XX</h1>
             <p>per instance per month</p>
           </div>
           <ul>
@@ -117,7 +113,7 @@ export default function Home() {
         <div className="product-choice">
           <h1>Enterprise</h1>
           <div className="price-tag">
-            <h1>$49.95</h1>
+            <h1>$XX.XX</h1>
             <p>per instance per month</p>
           </div>
           <ul>

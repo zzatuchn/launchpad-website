@@ -86,7 +86,6 @@ ul {
   text-align: center;
   animation-name: fadein, mtpopup;
   animation-duration: 1s;
-  width: 90%;
 }
 
 @media only screen and (min-width: 491px) {
@@ -136,6 +135,9 @@ ul {
     position: absolute;
     top: 300px;
   }
+  .main-text {
+    width: 65%;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -151,6 +153,9 @@ ul {
   .bottom-text {
     position: absolute;
     top: 400px;
+  }
+  .main-text {
+    width: 90%;
   }
 }
 
@@ -273,6 +278,7 @@ ul {
   background: white;
   color: black;
   border-radius: 20px;
+  height: 475px;
 }
 
 .about-cards {
