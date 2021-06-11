@@ -1,7 +1,27 @@
 import Head from 'next/head'
+import { useState } from 'react';
 import Navbar from '../components/navbar'
 
-export default function Home() {
+export async function getStaticProps() {
+  const RSS_URL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@devsafehouse";
+  let itemsHtml = [];
+
+  let res = await fetch(RSS_URL);
+
+  let resJson = await res.json();
+
+  return {
+    props: {blogPosts: [
+      resJson.items[0],
+      resJson.items[1],
+      resJson.items[2]
+    ]}
+  }
+
+}
+
+export default function Home( props ) {
+
   return (
     <div>
       <Head>
@@ -34,14 +54,14 @@ export default function Home() {
         <div className="about-text" style={{top: "40px", position: "relative"}}>
           <h1>Sophisticated</h1>
           <br></br>
-          <h3>Uses data to protect from future threats</h3>
+          <h3>Constantly changes to fool hackers</h3>
           <br></br>
           <img src="data.png" width="200px"></img>
         </div>
         <div className="about-text" style={{top: "40px", position: "relative"}}>
           <h1>Safe</h1>
           <br></br>
-          <h3>Isolated and convincing decoys</h3>
+          <h3>Isolated, convinving and manageable</h3>
           <br></br>
           <img src="safe.png" width="200px"></img>
         </div>
@@ -62,23 +82,18 @@ export default function Home() {
         </div>
       </div>
       <div className="about-text-container" style={{marginBottom: "40px", marginTop: "-75px"}}>
-        <div className="blog-post">
-          <br></br>
-          <img src="maze.jpg" width="90%" height="200px"></img>
-          <h2>Escaping The Cybersecurity Maze: A Guide for Newbies</h2>
-          <p><a href="https://devsafehouse.medium.com/escaping-the-cybersecurity-maze-a-guide-for-newbies-29d3323ea5a5">Read this blog post &#8594;</a></p>
-        </div>
-        <div className="blog-post">
-          <br></br>
-          <img src="sec.jpg" width="90%" height="200px"></img>
-          <h2>Four Ways That Small Businesses are Out of Their Depth on Cybersecurity</h2>
-          <p><a href="/">Read this blog post &#8594;</a></p>
-        </div>
-        <div className="blog-post">
-          <br></br>
-          <img src="gray.jpg" width="90%" height="200px"></img>
-          <h2>Coming soon...</h2><br></br>
-        </div>
+        {props.blogPosts.map((post) => {
+          return (
+            <div className="blog-post">
+              <br></br>
+              <a href={post.link}><img src={post.thumbnail} width="90%" height="200px"></img></a>
+              <div position="relative" style={{marginLeft: "40px", marginRight: "40px"}}>
+              <h2><a style={{textDecoration: "none", color: "black"}} href={post.link}>{post.title}</a></h2>
+              </div>
+              <p><a href={post.link}>View blog post</a></p>
+          </div>
+          );
+        })}
       </div>
       <div className="bg-image-three" style={{height: "700px", borderTop: "solid", borderColor: "white"}}>
         <div className="bg-gradient-three">
