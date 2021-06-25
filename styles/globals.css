@@ -133,6 +133,7 @@ ul {
   }
   .blog-post {
     width: 30%;
+    display: table-cell;
   }
   .product-choice {
     width: 40%;
@@ -152,6 +153,7 @@ ul {
   }
   .blog-post {
     width: 400px;
+    display: block;
   }
   .product-choice {
     width: 400px;
@@ -284,7 +286,6 @@ ul {
   background: white;
   color: black;
   border-radius: 20px;
-  display: table-cell;
 }
 
 .about-cards {
