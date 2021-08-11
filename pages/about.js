@@ -5,6 +5,10 @@ export default function Home() {
 
   return (
     <div>
+      <p>Under construction</p>
+    </div>
+  /*
+    <div>
       <Head>
         <title>SafeHouse - Home</title>
         <meta charSet="utf-8"></meta>
@@ -204,6 +208,7 @@ export default function Home() {
         </div>
       </div>
     </div>
+  */
   )
 }
   

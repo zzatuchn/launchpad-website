@@ -33,35 +33,47 @@ export default function Home( props ) {
       <Navbar></Navbar>
       <div className="bg-image">
         <div className="bg-gradient">
+          <div className="bg-gradient-outer">
+            <div className="main-text">
+              <br></br>
+              <h1>Fool, learn, and conquer</h1>
+              <h3>Trustless identity<br></br> for small businesses</h3>
+              <br></br>
+              <a href="#prices"><button type="button" className="button btn-danger"><h3>Get SafeHouse</h3></button></a>
+              <br></br><br></br>
+              <a href="/"><button type="button" className="button btn-dark"><h3>Read Our Blog</h3></button></a>
+              <br></br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-image-five">
+        <div className="bg-gradient-three">
           <div className="main-text">
-            <h1>Fool, learn, and conquer</h1>
-            <h3>Smart honeypots for<br></br> small enterprises</h3>
-            <br></br>
-            <a href="#prices"><button type="button" className="button btn-danger"><h3>Get SafeHouse</h3></button></a>
-            <br></br><br></br>
-            <a href="/about"><button type="button" className="button btn-dark"><h3>Learn More</h3></button></a>
+            <h1>Compromised credentials are the leading cause of hacks.</h1>
+            <h1>The solution? Ditch the password and embrace decentralized identity.</h1>
           </div>
         </div>
       </div>
       <div className="about-text-container">
         <div className="about-text" style={{top: "40px", position: "relative"}}>
-          <h1>Configurable</h1>
+          <h1>Granular</h1>
           <br></br>
-          <h3>Designed to suit multiple use cases</h3>
+          <h3>Specify authentication conditions</h3>
           <br></br>
           <img src="honeycomb.png" width="200px"></img>
         </div>
         <div className="about-text" style={{top: "40px", position: "relative"}}>
-          <h1>Sophisticated</h1>
+          <h1>Decentralized</h1>
           <br></br>
-          <h3>Constantly changes to fool hackers</h3>
+          <h3>Confirms identity through concensus</h3>
           <br></br>
           <img src="data.png" width="200px"></img>
         </div>
         <div className="about-text" style={{top: "40px", position: "relative"}}>
-          <h1>Safe</h1>
+          <h1>Secure</h1>
           <br></br>
-          <h3>Isolated, convinving and manageable</h3>
+          <h3>Authentication impossible to bypass</h3>
           <br></br>
           <img src="safe.png" width="200px"></img>
         </div>
@@ -71,7 +83,7 @@ export default function Home( props ) {
           <h1>Disclaimer</h1>
           <br></br>
           <h3>This is a placeholder site for a product in development.
-            <br></br>There is nothing to purchase nor demo.
+            <br></br>There is no pricing 
             <br></br>In the meantime, check out our blog!
           </h3>
         </div>
@@ -99,11 +111,8 @@ export default function Home( props ) {
         <div className="bg-gradient-three">
           <a name="prices"></a>
           <div className="main-text">
-            <h1>Disclaimer</h1>
-            <br></br>
-            <h3>There is nothing yet to purchase on this website. 
-              <br></br>The prices listed below are subject to change.
-            </h3>
+            <h1>There is nothing to purchase right now.</h1><br></br>
+            <h3>Pricing information is not available at this time.</h3>
           </div>
         </div>
       </div>
@@ -122,7 +131,6 @@ export default function Home( props ) {
             <li style={{color:"rgb(200,200,200)"}}>&#9587; Feature 5</li>
             <li style={{color:"rgb(200,200,200)"}}>&#9587; Feature 6</li>
           </ul> 
-          <button type="button" className="button btn-dark"><h3>Purchase Now!</h3></button>
         </div>
         <br></br>
         <div className="product-choice">
@@ -139,15 +147,14 @@ export default function Home( props ) {
             <li>&#10003; Feature 5</li>
             <li>&#10003; Feature 6</li>
           </ul> 
-          <button type="button" className="button btn-dark"><h3>Purchase Now!</h3></button>
         </div>
       </div>
       <div className="bottom-text">
         <div style={{width:"100%", height: "3px", background: "gray"}}></div>
         <br></br>
-        <h1>Get the world's most advanced commercial honeypot</h1>
+        <h1>Get the world's most advanced decentralized identity solution</h1>
         <br></br>
-        <a href="/about"><button type="button" className="button btn-danger"><h3>Learn More</h3></button></a>
+        <a href="#prices"><button type="button" className="button btn-danger"><h3>Get SafeHouse</h3></button></a>
         <br></br><br></br>
         <a href="/"><button type="button" className="button btn-dark"><h3>Read Our Blog</h3></button></a>
         <br></br><br></br><br></br>

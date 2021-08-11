@@ -70,9 +70,48 @@ ul {
 
 .bg-image {
   color: white;
-  background-image: url("../public/servers.jpg");
+  background-image: url("../public/network.gif");
   background-size: cover;
   height: 500px;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+}
+
+.bg-image-two {
+  color: white;
+  background-image: url("../public/man-at-computer.jpg");
+  background-size: cover;
+  height: 500px;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+  background-position: center;
+}
+
+.bg-image-three {
+  color: white;
+  background-image: url("../public/hoboken.jpeg");
+  background-size: cover;
+  height: 500px;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+  background-position: center;
+}
+
+.bg-image-four {
+  color: white;
+  background-image: url("../public/code.jpg");
+  background-size: cover;
+  height: 1000px;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+  background-position: center;
+}
+
+.bg-image-five {
+  color: white;
+  background-image: url("../public/servers.jpg");
+  background-size: cover;
+  height: 450px;
   animation-name: fadein;
   animation-duration: 0.5s;
 }
@@ -83,6 +122,38 @@ ul {
   width: 100%;
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 75%, rgba(30,30,30,1) 100%);
+}
+
+.bg-gradient-outer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgb(0,0,0);
+  background: rgba(225,75,75,0.7)
+}
+
+.bg-gradient-two {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(225,75,75,0) 0%, rgba(225,75,75,0.5) 47%, rgba(225,75,75,1) 100%);
+}
+
+.bg-gradient-three {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 70%, rgba(30,30,30,1) 100%);
+}
+
+.bg-gradient-four {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgb(30,30,30);
+  background: linear-gradient(0deg, rgba(30,30,30,1) 0%, rgba(6,6,6,1) 6%, rgba(0,0,0,0) 100%);
 }
 
 .main-text {
@@ -127,9 +198,6 @@ ul {
   }
   .about-text {
     width: 27%;
-  }
-  .about-text-2 {
-    width: 50%;
   }
   .blog-post {
     width: 30%;
@@ -189,15 +257,6 @@ ul {
   text-align: center;
 }
 
-.about-text-2 {
-  color: white;
-  position: relative;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
 .bottom-text {
   color: white;
   position: relative;
@@ -207,65 +266,11 @@ ul {
   top: 75px;
 }
 
-.bg-image-two {
-  color: white;
-  background-image: url("../public/man-at-computer.jpg");
-  background-size: cover;
-  height: 500px;
-  animation-name: fadein;
-  animation-duration: 0.5s;
-  background-position: center;
-}
-
-.bg-image-three {
-  color: white;
-  background-image: url("../public/hoboken.jpeg");
-  background-size: cover;
-  height: 500px;
-  animation-name: fadein;
-  animation-duration: 0.5s;
-  background-position: center;
-}
-
-.bg-image-four {
-  color: white;
-  background-image: url("../public/code.jpg");
-  background-size: cover;
-  height: 1000px;
-  animation-name: fadein;
-  animation-duration: 0.5s;
-  background-position: center;
-}
-
-.bg-gradient-two {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background: rgb(0,0,0);
-  background: radial-gradient(circle, rgba(225,75,75,0) 0%, rgba(225,75,75,0.5) 47%, rgba(225,75,75,1) 100%);
-}
-
-.bg-gradient-three {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background: rgb(0,0,0);
-  background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 70%, rgba(30,30,30,1) 100%);
-}
-
-.bg-gradient-four {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background: rgb(30,30,30);
-  background: linear-gradient(0deg, rgba(30,30,30,1) 0%, rgba(6,6,6,1) 6%, rgba(0,0,0,0) 100%);
-}
-
 .product-choice {
   margin: auto;
   text-align: center;
   position: relative;
-  background: rgb(225,75,75);
+  background: rgb(100,75,75);
   padding: 15px;
   border-radius: 20px;
 }
